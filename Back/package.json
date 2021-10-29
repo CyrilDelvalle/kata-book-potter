@@ -1,0 +1,16 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Back-end for the Harry Potters books project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Cyril Delvalle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "lodash": "^4.17.21"
+  }
+}
