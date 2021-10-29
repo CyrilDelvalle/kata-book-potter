@@ -4,6 +4,7 @@
   "description": "Back-end for the Harry Potters books project",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "author": "Cyril Delvalle",

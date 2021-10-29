@@ -1,0 +1,27 @@
+[{
+    "id": 0,
+    "name": "Harry Potter à l'école des sorciers",
+    "description": "Le début de l'aventure.",
+    "tome": 1
+}, {
+    "id": 1,
+    "name": "Harry Potter et la chambre des secrets",
+    "description": "Le fouchelangue c'est mieux dans les films.",
+    "tome": 2
+}, {
+    "id": 2,
+    "name": "Harry Potter et le prisonnier d'Azkaban",
+    "description": "Voldemort n'est même pas dedans...",
+    "tome": 3
+},
+{
+    "id": 3,
+    "name": "Harry Potter et coupe de feu",
+    "description": "Le début des gros problèmes.",
+    "tome": 4
+}, {
+    "id": 4,
+    "name": "Harry Potter et l'ordre du phénix'",
+    "description": "La rébellion commence.",
+    "tome": 5
+}]
