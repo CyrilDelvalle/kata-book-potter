@@ -3,11 +3,15 @@ import styled from 'styled-components';
 const BookItemWrapper = styled.div`
 
 .book-item {
-    border: solid 1px;
     margin: 2rem 0rem;
-    border-radius: 2px;
+    border-radius: 4px;
 
-    &--name {
+    &-activate {
+        border: solid 2px #6495ED;
+    }
+
+    &-desactivate {
+        border: solid 2px;
     }
 
     &--description {
@@ -22,40 +26,43 @@ const BookItemWrapper = styled.div`
     }
 
     &--buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+
         &-add {
             font-size: 18px;
             color: #fff;
-            height: 40px;
-            width: 50px;
+            height: 2.5rem;
+            width: 4rem;
             border-radius: 4px;
             border: none;
             box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
-            background: rgb(141,217,252);
+            background: #6495ED;
             cursor: pointer;
         }
         &-remove {
             &-enabled {
                 font-size: 18px;
                 color: #fff;
-                height: 40px;
-                width: 50px;
+                height: 2.5rem;
+                width: 4rem;
                 border-radius: 4px;
                 border: none;
                 box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
-                background: rgb(141,217,252);
+                background: #6495ED;
                 cursor: pointer;
             }
 
             &-disabled {
                 font-size: 18px;
                 color: #fff;
-                height: 40px;
-                width: 50px;
+                height: 2.5rem;
+                width: 4rem;
                 border-radius: 4px;
                 border: none;
                 box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
-                background: rgb(141,217,252);
-                cursor: pointer;
+                background: #6495ED;
                 opacity: .6
             }
         }

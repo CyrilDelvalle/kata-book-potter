@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const BookListWrapper = styled.div`
+const BodyWrapper = styled.div`
 width: 70rem;
 gap: 1rem;
 display: flex;
@@ -9,4 +9,4 @@ top: 0;
 margin-top: 1rem;
 }`
 
-export default BookListWrapper;
+export default BodyWrapper;

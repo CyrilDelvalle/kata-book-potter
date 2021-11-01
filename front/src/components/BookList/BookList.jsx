@@ -3,7 +3,7 @@ import axios from "axios";
 import BookListWrapper from "./BookListWrapper";
 import BookItem from "./BookItem";
 
-function BookList({ onCalculPrice, onSetDescription }) {
+function BookList({ currentBook, onCalculPrice, onSetCurrentBook }) {
   const [books, setBooks] = useState([]);
   const [basket, setBasket] = useState([]);
 
@@ -52,8 +52,9 @@ function BookList({ onCalculPrice, onSetDescription }) {
         return (
           <BookItem
             key={book.id}
+            isSelected={currentBook.tome === book.tome ? true : false}
             book={book}
-            onSetDescription={onSetDescription}
+            onSetCurrentBook={onSetCurrentBook}
             handleAddBook={handleAddBook}
             handleRemoveBook={handleRemoveBook}
           />

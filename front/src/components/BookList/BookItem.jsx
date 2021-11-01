@@ -1,13 +1,23 @@
 import React from "react";
 import BookItemWrapper from "./BookItemWrapper";
 
-function BookItem({ book, handleAddBook, handleRemoveBook, onSetDescription }) {
+function BookItem({
+  book,
+  isSelected,
+  handleAddBook,
+  handleRemoveBook,
+  onSetCurrentBook,
+}) {
   return (
     <BookItemWrapper>
-      <div className="book-item">
+      <div
+        className={isSelected ? "book-item-activate" : "book-item-desactivate"}
+      >
         <div
           className="book-item--image"
-          onClick={() => onSetDescription(book.description)}
+          onClick={() => {
+            onSetCurrentBook(book);
+          }}
         >
           <img
             src={require(`../../assets/HP${book.tome}.jpg`).default}
@@ -23,6 +33,7 @@ function BookItem({ book, handleAddBook, handleRemoveBook, onSetDescription }) {
           >
             +
           </button>
+          {book.currentSelected}
           <button
             className={
               book.currentSelected > 0
@@ -34,9 +45,6 @@ function BookItem({ book, handleAddBook, handleRemoveBook, onSetDescription }) {
           >
             -
           </button>
-        </div>
-        <div className="book-item--current-selected">
-          {book.currentSelected}
         </div>
       </div>
     </BookItemWrapper>
