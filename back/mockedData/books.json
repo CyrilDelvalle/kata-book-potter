@@ -1,27 +1,27 @@
 [{
     "id": 0,
     "name": "Harry Potter à l'école des sorciers",
-    "description": "Le début de l'aventure.",
+    "description": " Harry Potter est un garçon ordinaire. Mais le jour de ses onze ans, son existence bascule : un géant vient le chercher pour l'emmener dans une école de sorciers. Voler à cheval sur des balais, jeter des sorts, combattre les Trolls : Harry Potter se révèle un sorcier vraiment doué. Mais quel mystère entoure donc sa naissance et qui est l'effroyable V..., le mage noir dont personne n'ose prononcer le nom ?",
     "tome": 1
 }, {
     "id": 1,
     "name": "Harry Potter et la chambre des secrets",
-    "description": "Le fouchelangue c'est mieux dans les films.",
+    "description": "Une rentrée fracassante en voiture volante, une étrange malédiction qui s'abatsur les élèves, cette deuxième année à l'école des sorciers ne s'annonce pas de tout repos ! Entre les cours de potions magiques, les matches de Quidditch et les combats de mauvais sorts, Harry et ses amis Ron et Hermione trouveront-t-ils le temps de percer le mystère de la Chambre des Secrets ? ",
     "tome": 2
 }, {
     "id": 2,
     "name": "Harry Potter et le prisonnier d'Azkaban",
-    "description": "Voldemort n'est même pas dedans...",
+    "description": "Sirius Black, le dangereux criminel qui s’est échappé de la forteresse d’Azkaban, recherche Harry Potter. C’est donc sous bonne garde que l’apprenti sorcier fait sa troisième rentrée. Au programme : des cours de divination, la fabrication d’une potion de Ratatinage, le dressage des hippogriffes… Mais Harry est-il vraiment à l’abri du danger qui le menace ? ",
     "tome": 3
 },
 {
     "id": 3,
     "name": "Harry Potter et coupe de feu",
-    "description": "Le début des gros problèmes.",
+    "description": "Harry Potter a quatorze ans et il entre en quatrième année au collège de Poudlard. Une grande nouvelle attend Harry, Ron et Hermione à leur arrivée : la tenue d'un tournoi de magie exceptionnel entre les plus célèbres écoles de sorcellerie. Déjà, les délégations étrangères font leur entrée. Harry se réjouit... Trop vite. Il va se trouver plongé au cœur des évènements les plus dramatiques qu'il ait jamais eu à affronter.",
     "tome": 4
 }, {
     "id": 4,
     "name": "Harry Potter et l'ordre du phénix",
-    "description": "La rébellion commence.",
+    "description": "À quinze ans, Harry entre en cinquième année à Poudlard mais il n'a jamais été aussi anxieux. L'adolescence, la perspective des examens et ces étranges cauchemars... Car Celui-Dont-On-Ne-Doit-Pas-Prononcer- Le-Nom est de retour. Le ministère de la Magie ne semble pas prendre cette menace au sérieux, contrairement à Dumbledore. La résistance s'organise alors autour de Harry qui va devoir compter sur le courage et la fidélité de ses amis de toujours…",
     "tome": 5
 }]

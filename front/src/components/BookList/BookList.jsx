@@ -2,12 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import BookListWrapper from "./BookListWrapper";
 import BookItem from "./BookItem";
-import getAllBooks from "../../api/getAllBooks";
 
-function BookList({ onCalculPrice }) {
+function BookList({ onCalculPrice, onSetDescription }) {
   const [books, setBooks] = useState([]);
   const [basket, setBasket] = useState([]);
-  const [price, setPrice] = useState(0);
 
   useEffect(() => {
     axios.post("http://localhost:3001/basket", basket).then((resp) => {
@@ -55,6 +53,7 @@ function BookList({ onCalculPrice }) {
           <BookItem
             key={book.id}
             book={book}
+            onSetDescription={onSetDescription}
             handleAddBook={handleAddBook}
             handleRemoveBook={handleRemoveBook}
           />
