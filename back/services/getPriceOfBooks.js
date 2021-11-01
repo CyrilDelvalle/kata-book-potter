@@ -1,6 +1,7 @@
 const applyReduction = require('./applyReduction');
 const getBooksWithBookTome = require('./getBooksWithBookTome');
 const getLongestArrayLength = require('./getLongestArrayLength');
+const mockedBooks = require('../mockedData/books.json')
 
 function getPriceOfBooks(bookList) {
     const totalBooks = bookList.length;
@@ -22,7 +23,7 @@ function getPriceOfBooks(bookList) {
 function getDiscount(bookList) {
     let bookCollection = [];
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < mockedBooks.length; i++) {
         const number = i + 1;
         const books = getBooksWithBookTome(number, bookList)
 
@@ -44,7 +45,7 @@ function getDiscount(bookList) {
         grandTotal += applyReduction(totalBooks);
     }
 
-    return grandTotal;
+    return parseFloat(grandTotal.toFixed(1));
 }
 
 module.exports = getPriceOfBooks;

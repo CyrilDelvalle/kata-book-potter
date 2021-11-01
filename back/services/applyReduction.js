@@ -18,6 +18,14 @@ function applyReduction(totalBooks) {
         discount = (cost / 100) * 25;
         cost -= discount;
     }
+    if (totalBooks === 6) {
+        discount = (cost / 100) * 25;
+        cost -= discount;
+    }
+    if (totalBooks === 7) {
+        discount = (cost / 100) * 30;
+        cost -= discount;
+    }
 
     return cost;
 }
